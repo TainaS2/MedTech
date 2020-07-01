@@ -1,5 +1,5 @@
 const commentsDiv = document.getElementById("comments")
-const url = 'https://medtechs2i.herokuapp.com/comments'
+const url = 'https://taina-teste.herokuapp.com/comments'
 
 fetch(url)
 .then(response => response.json())
