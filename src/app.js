@@ -17,3 +17,4 @@ app.use(userRouter);
 
 
 module.exports = app
+const port= process.env.PORT || 3000;
