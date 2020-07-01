@@ -1,5 +1,4 @@
 const commentsDiv = document.getElementById("comments")
-const url = 'http://localhost:3000/comments'
 const url = 'http://localhost:'+ process.env.PORT+'/comments'
 
 commentsDiv.listen(process.env.PORT || 3000)
